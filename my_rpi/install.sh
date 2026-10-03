@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Description: Append /etc/rc.local file with push_my_ip.sh"
-# Author: Eddy Ferre - ferree@seattleu.edu
+
 
 ME=$(whoami)
 sed -i "s|^USER=|USER=${ME}|g" ${PWD}/scripts/push_my_ip.sh
