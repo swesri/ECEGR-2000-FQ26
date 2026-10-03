@@ -1,7 +1,6 @@
 #!/bin/bash -x
 
 # Description: Use the current project's README.md file to publish all local IP addresses
-# Author: Eddy Ferre - ferree@seattleu.edu
 
 # Global variable definition
 LOGDIR="../log"
